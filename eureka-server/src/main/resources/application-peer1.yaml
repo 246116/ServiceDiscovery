@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: euraka-server01
+
+server:
+  port: 8060
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8061/eureka/
+  instance:
+    hostname: 127.0.0.1
+    preferIpAddress: true
+  server:
+    enable-self-preservation: false
+    wait-time-in-ms-when-sync-empty: 0
