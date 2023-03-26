@@ -14,6 +14,7 @@
         <module>ConfigCenter</module>
         <module>CommodityManagement</module>
         <module>AuthenticationService</module>
+        <module>Gateway</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
